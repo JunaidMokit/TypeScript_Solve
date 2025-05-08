@@ -6,18 +6,18 @@
    Interface are open ,we can declare the same interface multiple times,then Typescript will automatically  combine them.It's declaration merging.
 
    ## Types: <br>
-      A type is a more flexible way to give a name to any type,not just object structure .We can use to define <br>
-      Primitives(e.g type Age=number) <br>
-      Unions(e.g. type Id=string|number)<br>
-      Tuples(e.g. type Point=[number,number])<br>
-      Complex mapped and conditional types <br>
+A type is a more flexible way to give a name to any type,not just object structure .We can use to define <br>
+Primitives(e.g type Age=number) <br>
+Unions(e.g. type Id=string|number)<br>
+Tuples(e.g. type Point=[number,number])<br>
+Complex mapped and conditional types <br>
       
 
 # Provide an example of using union and intersection types in TypeScript.
 
  ## Union type example
    A union type allows a variable to be one of several types: <br>
-   
+
    ![Alt text](./img/Union.PNG)
  
  ## Intersection Type example
